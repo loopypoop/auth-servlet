@@ -14,11 +14,11 @@
 <a href="register.jsp">Sign Up</a>
 <div class="container d-flex justify-content-center" style="align-items: center">
     <div class="" style="width: 300px; height: 500px; border-color: black;">
-        <form action="register" method="POST">
+        <form action="LoginServlet" method="post">
             <h2>Log in</h2>
             <div class="form-group">
-                <label>Username</label>
-                <input type="text" class="form-control" name="inputUsername" placeholder="Enter username">
+                <label>Email</label>
+                <input type="text" class="form-control" name="inputEmail" placeholder="Enter email">
             </div>
             <div class="form-group">
                 <label>Password</label>
