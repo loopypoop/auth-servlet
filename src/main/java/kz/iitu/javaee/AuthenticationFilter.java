@@ -38,7 +38,7 @@ public class AuthenticationFilter implements Filter {
             this.context.log("Unauthorized access request");
             res.sendRedirect("login.jsp");
         }else{
-            // pass the request along the filter chain
+
             chain.doFilter(request, response);
         }
 
@@ -46,7 +46,7 @@ public class AuthenticationFilter implements Filter {
     }
 
     public void destroy() {
-        //close any resources here
+
     }
 
 }
